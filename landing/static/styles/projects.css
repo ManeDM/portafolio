@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url(../img/background2.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.container {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: auto;
+    z-index: 1;
+    
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para dispositivos móviles pequeños (320px) */
+@media only screen and (min-width: 320px) {
+    .proj_icon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        margin-top: 5rem;
+        margin-left: -10rem;
+        
+        
+       
+        
+    }
+    
+    .proj h3{
+        color: #8AD47E;
+        font-size: 18px;
+        position: absolute;
+        right: 7rem;
+        margin-top: 2rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    #cd{
+     
+      margin-bottom: 1rem; 
+    }
+
+  }
+  
+  /* Estilos para dispositivos móviles más grandes y tablets pequeñas (480px) */
+  @media only screen and (min-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para tablets y dispositivos móviles de mayor tamaño (768px) */
+  @media only screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Estilos para pantallas de escritorio pequeñas y laptops (992px) */
+  @media only screen and (min-width: 1280px) {
+    .proj_icon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        margin-top: 48rem;
+        margin-left: -30rem;
+       
+        
+    }
+    
+    .proj h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 62rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    #cd{
+      margin-left: 2rem;
+      margin-bottom: 3rem; 
+    }
+
+  }
+  
+  
+  @media only screen and (min-width: 1600px) {
+    
+    .proj_icon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: absolute;
+        margin-top: 48rem;
+        margin-left: -39rem;
+       
+        
+    }
+    
+    .proj h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 60rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    
+
+    
+   
+    
+
+  }

@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url(../img/background2.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.container {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: auto;
+    z-index: 1;
+    
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Estilos para dispositivos móviles pequeños (320px) */
+@media only screen and (min-width: 320px) {
+    .box_1 nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: -4.5rem;
+        margin-top: -55rem;
+        position: absolute;
+      }
+    nav ul li {
+        color: #ffffff;
+        font-size: 18px;
+        text-decoration: none;
+        list-style: none;
+        margin-left: -4.5rem;
+        padding-top: 1rem;
+        text-transform: capitalize;
+        
+      }
+
+    .box_2 {
+        position: absolute;
+        top: -10rem;
+        margin-right: 0.5rem;
+        margin-top: 12rem;
+        text-transform: capitalize;
+      }
+
+    .box_2 h2 {
+        color: #8AD47E;
+        font-size: 19px;
+        letter-spacing: 1.5px;
+        text-transform: capitalize;
+      }
+
+    .box_2 h3 {
+        color: #5DD9C2;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        text-transform: capitalize;
+      }
+
+      .box_3 {
+        margin-left: 8rem;
+        margin-bottom: 45.5rem;
+        position: absolute;
+      }
+
+      .box_3 img {
+        border-radius: 30px;
+        height: 150px;
+      }
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-right: 1rem;
+        margin-bottom: 39.5rem;
+      }
+      
+      #soc_1 {
+        margin-right: 1rem;
+        width: 30px;
+      }
+      
+      #soc_2 {
+        margin-right: 1rem;
+        width: 30px;
+      }
+      
+      #soc_3 {
+        margin-right: 1rem;
+        margin-top: 0.6rem;
+        width: 30px;
+      }
+      
+      #soc_4 {
+        margin-right: 1rem;
+        margin-top: 0.6rem;
+        width: 30px;
+      }
+      
+      #soc_5 {
+        margin-bottom: -1rem;
+        width: 33px;
+        height: 48px;
+      }
+      
+      .cv {
+        position: absolute;
+        margin-right: 26rem;
+        margin-bottom: 15.5rem;
+      }
+      
+      .cv p {
+        font-size: 25px;
+        color: #5DD9C2;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+
+
+
+    #up {
+      position: fixed;
+      bottom: 1rem;
+      right: 2.5rem;
+      height: 100px;
+      cursor: pointer;
+      } 
+
+      
+  }
+  
+  /* Estilos para dispositivos móviles más grandes y tablets pequeñas (480px) */
+  @media only screen and (min-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para tablets y dispositivos móviles de mayor tamaño (768px) */
+  @media only screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Estilos para pantallas de escritorio pequeñas y laptops (992px) */
+  @media only screen and (min-width: 992px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
+  @media only screen and (min-width: 1280px) {
+    .box_1 nav ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: -25rem;
+        margin-top: -52rem;
+      }
+      
+      nav ul li {
+        color: #ffffff;
+        font-size: 32px;
+        text-decoration: none;
+        list-style: none;
+        padding-left: 8rem;
+        text-transform: capitalize;
+      }
+      
+      .box_2 {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 27rem;
+        margin-top: 14rem;
+        text-transform: capitalize;
+      }
+      .box_2 h2 {
+        color: #8AD47E;
+        font-size: 45px;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+      }
+      
+      .box_2 h3 {
+        color: #5DD9C2;
+        font-size: 35px;
+        letter-spacing: 4px;
+        text-transform: capitalize;
+      }
+      
+      .box_3 {
+        margin-left: 45rem;
+        margin-bottom: 15rem;
+        position: absolute;
+      }
+      
+      .box_3 img {
+        border-radius: 30%;
+        height: 350px;
+      }
+      
+      .social {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-right: 25rem;
+        margin-bottom: 18rem;
+      }
+      
+      #soc_1 {
+        margin-right: 2rem;
+      }
+      
+      #soc_2 {
+        margin-right: 2rem;
+      }
+      
+      #soc_3 {
+        margin-right: 2rem;
+        margin-top: 1rem;
+      }
+      
+      #soc_4 {
+        margin-right: 2rem;
+        margin-top: 1rem;
+      }
+      
+      #soc_5 {
+        display: none;
+      }
+      
+      .cv {
+        position: absolute;
+        margin-right: 26rem;
+        margin-bottom: 15.5rem;
+      }
+      
+      .cv p {
+        font-size: 25px;
+        color: #5DD9C2;
+        text-transform: capitalize;
+        text-decoration: underline;
+      
+    }
+  
+  }
+
+  @media only screen and (min-width: 1600px) {
+    .box_1 nav ul {
+        display: flex;
+        flex-direction: row;
+       
+        margin-top: -57rem;
+      }
+      
+      nav ul li {
+        color: #ffffff;
+        font-size: 32px;
+        text-decoration: none;
+        list-style: none;
+        padding-left: 8rem;
+        text-transform: capitalize;
+      }
+      
+      .box_2 {
+        position: absolute;
+        
+        display: flex;
+        
+        margin-left: 12rem;
+        margin-top: 14rem;
+        text-transform: capitalize;
+      }
+      .box_2 h2 {
+        color: #8AD47E;
+        font-size: 45px;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+      }
+      
+      .box_2 h3 {
+        color: #5DD9C2;
+        font-size: 35px;
+        letter-spacing: 4px;
+        text-transform: capitalize;
+      }
+      
+      .box_3 {
+        margin-left: 49rem;
+        margin-bottom: 18rem;
+        position: absolute;
+      }
+      
+      .box_3 img {
+        border-radius: 30%;
+        height: 450px;
+      }
+      
+      .social {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-right: 25rem;
+        margin-bottom: 19rem;
+      }
+      
+      #soc_1 {
+        margin-right: 2rem;
+      }
+      
+      #soc_2 {
+        margin-right: 2rem;
+      }
+      
+      #soc_3 {
+        margin-right: 2rem;
+      }
+      
+      #soc_4 {
+        margin-right: 2rem;
+      }
+      
+      #soc_5 {
+        display: none;
+      }
+      
+      .cv {
+        position: absolute;
+        margin-right: 26rem;
+        margin-bottom: 16rem;
+      }
+      
+      .cv p {
+        font-size: 25px;
+        color: #5DD9C2;
+        text-transform: capitalize;
+        text-decoration: underline;
+      }}

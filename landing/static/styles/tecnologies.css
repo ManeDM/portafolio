@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url(../img/background2.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.container {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: auto;
+    z-index: 1;
+    
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para dispositivos móviles pequeños (320px) */
+@media only screen and (min-width: 320px) {
+    .techs_icon{
+        margin-top: -13rem;
+        margin-bottom: -3rem;
+        margin-left: 1.5rem;
+    
+        
+        
+    }
+    .techs_icon img{
+        width: 45px;
+
+    }
+
+    #tec{
+        margin-left: 1rem;
+        
+    }
+
+    .techs h3{
+        color: #8AD47E;
+        font-size: 17px;
+        right: 7rem;
+        margin-top: -17rem;
+        text-transform: capitalize;
+        line-height: 40px;
+        position: absolute;
+        
+        
+    }
+  }
+  
+  /* Estilos para dispositivos móviles más grandes y tablets pequeñas (480px) */
+  @media only screen and (min-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para tablets y dispositivos móviles de mayor tamaño (768px) */
+  @media only screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Estilos para pantallas de escritorio pequeñas y laptops (992px) */
+  @media only screen and (min-width: 992px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
+  @media only screen and (min-width: 1280px) {
+    .techs_icon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: absolute;
+        margin-top: 18rem;
+        margin-left: -17rem;
+        
+    }
+    .techs_icon img{
+        width: 12%;
+
+    }
+
+    #tec{
+        margin-left: -10rem;
+        margin-right: 13rem;
+        margin-bottom: 4rem;
+    }
+
+    .techs h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 22.5rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+  }
+  
+  @media only screen and (min-width: 1600px) {
+    .techs_icon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: absolute;
+        margin-top: 20rem;
+        margin-left: -30rem;
+        
+    }
+    .techs_icon img{
+        width: 7%;
+
+    }
+
+    #tec{
+        margin-left: -5.8rem;
+        margin-right: 15rem;
+        margin-bottom: 4rem;
+    }
+
+    .techs h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 23.2rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        line-height: 35px;
+        
+    }
+  }
+  

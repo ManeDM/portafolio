@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url(../img/background2.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.container {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: auto;
+    z-index: 1;
+    
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para dispositivos móviles pequeños (320px) */
+@media only screen and (min-width: 320px) {
+.cont_form {
+  margin-left: -7.5rem;
+  margin-top: 32rem;
+  width: 15rem;
+  height: 28rem;
+  background-color: #5DD9C2;
+  border-radius: 20px;
+  opacity: 70%;
+  position: absolute;
+}
+
+.cont h3 {
+    color: #8AD47E;
+    font-size: 18px;
+    position: absolute;
+    right: 7.5rem;
+    margin-top: 29rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.cont h4 {
+    color: #8AD47E;
+    font-size: 25px;
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: 9rem;
+    margin-top: 60rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+    visibility: hidden;
+}
+
+.cont_form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.cont_form label {
+  margin-top: 1rem;
+}
+
+.cont_form input,
+.cont_form textarea {
+  width: 80%;
+  padding: 0.5rem;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #C6DB71;
+  position: relative;
+}
+
+.cont_form textarea {
+  height: 8rem;
+  margin-top: -1rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  border: none;
+  border-bottom: 3px solid #C6DB71;
+}
+
+.cont_form button {
+  width: 120px;
+  height: 35px;
+  margin-top: -10rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #C6DB71;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.message a {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+
+.email a {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.name a {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+#name {
+  margin-top: 2rem;
+  position: relative;
+}
+
+#cd{
+    width: 150px; 
+    height: 200px;
+    margin-left: 6px;
+    margin-bottom: -3rem;
+}
+  }
+  
+  /* Estilos para dispositivos móviles más grandes y tablets pequeñas (480px) */
+  @media only screen and (min-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para tablets y dispositivos móviles de mayor tamaño (768px) */
+  @media only screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Estilos para pantallas de escritorio pequeñas y laptops (992px) */
+  @media only screen and (min-width: 1280px) {
+    .cont_form {
+        margin-left: -28rem;
+        margin-top: 100rem;
+        width: 50rem; /* establece el ancho del div */
+        height: 50rem; /* establece la altura del div */
+        background-color: #5DD9C2; /* establece el color de fondo del div */
+        border-radius: 30px;
+        opacity: 70%;
+        position: absolute;
+      }
+
+      .cont h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 120rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    .cont h4{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 160rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        visibility: hidden;
+        
+    }
+
+    .cont_form form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+      }
+      
+      .cont_form label {
+        margin-top: 1rem;
+      }
+      
+      .cont_form input,
+      .cont_form textarea {
+        width: 80%;
+        padding: 0.5rem;
+        margin-top: 21rem;
+        margin-left: 3.5rem;
+        border-radius: 0.5rem;
+        background: none;
+        border: none;
+        border-bottom: 7px solid #C6DB71;
+        position: absolute;
+      }
+
+     
+      .cont_form textarea {
+        height: 10rem;
+        margin-top: 30rem;
+        margin-left: 4.5rem;
+        border: none;
+        border-bottom: 7px solid #C6DB71;
+      }
+      
+      .cont_form button {
+        width: 250px;
+        height: 60px;
+        position: absolute;
+        margin-top: 43.5rem;
+        margin-left: 4.5rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #C6DB71;
+        border-radius: 40px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 35px;
+      }
+
+       .message a{
+        color: #ffffff;
+        font-size: 32px;
+        position: absolute;
+        margin-left: 4.5rem;
+        margin-top: 27rem;
+        text-transform: capitalize;
+    }
+
+        .email a{
+        color: #ffffff;
+        font-size: 32px;
+        position: absolute;
+        margin-left: 4.5rem;
+        margin-top: 13rem;
+        text-transform: capitalize;
+    }
+
+        .name a{
+        color: #ffffff;
+        font-size: 32px;
+        position: absolute;
+        margin-left: 4.5rem;
+        margin-top: 3rem;
+        text-transform: capitalize;
+    }
+
+        #name{
+            margin-top: 8rem;
+            position: absolute;
+        }
+
+        #cd{
+            width: 350px; 
+            height: 300px;
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
+
+  }
+
+  /* Estilos para pantallas de escritorio pequeñas y laptops (992px) */
+  @media only screen and (min-width: 1600px) {
+    .cont_form {
+        margin-left: -28rem;
+        margin-top: 100rem;
+        width: 50rem; /* establece el ancho del div */
+        height: 50rem; /* establece la altura del div */
+        background-color: #5DD9C2; /* establece el color de fondo del div */
+        border-radius: 30px;
+        opacity: 70%;
+        position: absolute;
+      }
+
+      .cont h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 120rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    .cont h4{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 160rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        visibility: hidden;
+        
+    }
+
+    .cont_form form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+      }
+      
+      .cont_form label {
+        margin-top: 1rem;
+      }
+      
+      .cont_form input,
+      .cont_form textarea {
+        width: 80%;
+        padding: 0.5rem;
+        margin-top: 21rem;
+        margin-left: 3.5rem;
+        border-radius: 0.5rem;
+        background: none;
+        border: none;
+        border-bottom: 7px solid #C6DB71;
+        position: absolute;
+      }
+
+     
+      .cont_form textarea {
+        height: 10rem;
+        margin-top: 30rem;
+        margin-left: 4.5rem;
+        border: none;
+        border-bottom: 7px solid #C6DB71;
+      }
+      
+      .cont_form button {
+        width: 250px;
+        height: 60px;
+        position: absolute;
+        margin-top: 43.5rem;
+        margin-left: 4.5rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #C6DB71;
+        border-radius: 40px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 35px;
+      }
+
+       .message a{
+        color: #ffffff;
+        font-size: 32px;
+        position: absolute;
+        margin-left: 4.5rem;
+        margin-top: 27rem;
+        text-transform: capitalize;
+    }
+
+        .email a{
+        color: #ffffff;
+        font-size: 32px;
+        position: absolute;
+        margin-left: 4.5rem;
+        margin-top: 13rem;
+        text-transform: capitalize;
+    }
+
+        .name a{
+        color: #ffffff;
+        font-size: 32px;
+        position: absolute;
+        margin-left: 4.5rem;
+        margin-top: 3rem;
+        text-transform: capitalize;
+    }
+
+        #name{
+            margin-top: 8rem;
+            position: absolute;
+        }
+
+        
+
+        
+    
+  }
