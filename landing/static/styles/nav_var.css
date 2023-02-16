@@ -38,6 +38,32 @@ a{
     height: 100%;
 }
 
+#up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#up:hover {
+  opacity: 1;
+}
+
+.social a {
+  display: inline-block; /* Agrega esto para que los elementos <a> tengan un ancho y alto definidos */
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social a:hover {
+  opacity: 1;
+}
+
+
+
 
 /* Estilos para dispositivos móviles pequeños (320px) */
 @media only screen and (min-width: 320px) {
@@ -103,6 +129,7 @@ a{
       #soc_1 {
         margin-right: 1rem;
         width: 30px;
+        
       }
       
       #soc_2 {
@@ -127,6 +154,7 @@ a{
         width: 33px;
         height: 48px;
       }
+
       
       .cv {
         position: absolute;
@@ -141,15 +169,31 @@ a{
         text-decoration: underline;
     }
 
+      .cv a p {
+        display: none;
+    }
+
+      #up{
+        height: 45px;
+      }
+
+      #up {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      #up:hover {
+        opacity: 1;
+      }
 
 
-    #up {
-      position: fixed;
-      bottom: 1rem;
-      right: 2.5rem;
-      height: 100px;
-      cursor: pointer;
-      } 
+
+    
 
       
   }
@@ -236,12 +280,14 @@ a{
         margin-bottom: 18rem;
       }
       
-      #soc_1 {
+      .social #soc_1 {
         margin-right: 2rem;
+        margin-top: 0.5rem;
       }
       
-      #soc_2 {
+      .social #soc_2 {
         margin-right: 2rem;
+        margin-top: 0.5rem;
       }
       
       #soc_3 {
@@ -255,7 +301,8 @@ a{
       }
       
       #soc_5 {
-        display: none;
+        margin-right: 2rem;
+        margin-top: 0.4rem;       
       }
       
       .cv {
@@ -271,6 +318,25 @@ a{
         text-decoration: underline;
       
     }
+
+    #up {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 0.3s ease-in-out;
+    }
+    
+    #up:hover {
+      opacity: 1;
+    }
+
+    #up{
+      height: 55px;
+    }
+
   
   }
 
@@ -333,25 +399,31 @@ a{
         margin-bottom: 19rem;
       }
       
-      #soc_1 {
+     .social #soc_1 {
         margin-right: 2rem;
+        margin-top:  0.5rem;
+        
       }
       
-      #soc_2 {
+      .social #soc_2 {
         margin-right: 2rem;
+        margin-top:  0.5rem;
       }
       
       #soc_3 {
         margin-right: 2rem;
       }
       
-      #soc_4 {
+     #soc_4 {
         margin-right: 2rem;
       }
       
       #soc_5 {
-        display: none;
+        margin-right: 2rem;
+        margin-top: 1.5;
       }
+
+      
       
       .cv {
         position: absolute;
@@ -364,4 +436,27 @@ a{
         color: #5DD9C2;
         text-transform: capitalize;
         text-decoration: underline;
-      }}
+      }
+
+      #up {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      #up:hover {
+        opacity: 1;
+      }
+
+      #up{
+        height: 65px;
+      }
+
+      
+
+      
+    }

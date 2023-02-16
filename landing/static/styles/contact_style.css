@@ -12,9 +12,7 @@ body {
     height: 100vh;
 }
 
-html{
-  scroll-behavior: smooth;
-}
+
 
 
 .container {
@@ -106,9 +104,9 @@ html{
 }
 
 .cont_form button {
-  width: 120px;
+  width: 100px;
   height: 35px;
-  margin-top: -10rem;
+  margin-top: -1rem;
   margin-left: 1rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -119,6 +117,10 @@ html{
   font-weight: bold;
   cursor: pointer;
   font-size: 20px;
+  transition: opacity 0.2s ease-in-out;
+}
+.cont_form button:hover {
+  opacity: 0.8;
 }
 
 .message a {
@@ -256,6 +258,11 @@ html{
         font-weight: bold;
         cursor: pointer;
         font-size: 35px;
+        transition: opacity 0.2s ease-in-out;
+      }
+
+      .cont_form button:hover {
+        opacity: 0.8;
       }
 
        .message a{
@@ -386,6 +393,13 @@ html{
         font-weight: bold;
         cursor: pointer;
         font-size: 35px;
+        transition: opacity 0.2s ease-in-out;
+      }
+
+         
+
+      .cont_form button:hover {
+        opacity: 0.8;
       }
 
        .message a{
